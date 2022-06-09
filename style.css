@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+nav ul li{
+    font-size: 21px;
+    display: inline-block;
+    padding: 4px;
+    margin-right: 41px;
+    font-family: sans-serif;
+    position: relative;
+    bottom: -40px;
+    left: 70px;
+    color: #fff;
+    background-color: #fff;
+    border-radius: 1rem;
+    transition: .4s;
+}
+
+nav ul li a {
+    background-color: #fff;
+    border-radius: 1rem;
+    color: rgb(0, 153, 255);;
+}
+
+nav ul li:hover{
+    box-shadow: 0px 0px 10px rgb(0, 140, 255);;
+}
+
+.pedro {
+    color: rgb(0, 119, 255);
+
+}
+
+.juan-pedro {
+    padding: 10px;
+    font-size: 31px;
+    position: relative;
+    font-family: 'Anton', sans-serif;
+    padding: 3px;
+    margin-left: 121px;
+    bottom: -25px;
+    cursor: pointer;
+    color: #fff;
+}
+
+body {
+    min-height: 100vh;
+    background-size: cover;
+    overflow-x: hidden;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 61%, rgba(97,97,97,1) 100%);
+}
+
+.wrapepr{
+    display: inline-flex;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+}
+
+
+
+.wrapepr .dynamic-texts {
+    margin-left: 15px;
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+    position: relative;
+    bottom: 40px;
+    left: 1650px;
+}
+
+.dynamic-texts li {
+    color: #fff;
+    list-style: none;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 6s steps(4) infinite;
+} 
+
+@keyframes slide {
+    100%{
+        top: -360px;
+    }
+}
+
+
+.dynamic-texts li span{
+    position: relative;
+    bottom: 10px;
+}
+
+.dynamic-texts li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    right: 10px;
+    animation: typing 1.5s steps(10) infinite;
+} 
+
+@keyframes typing {
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
+
+
+.name {
+    color: #fff;
+    font-size: 120px;
+    margin-top: 180px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    position: relative;
+    bottom: 250px;
+}
+
+.mit-2 {
+    color: rgb(0, 119, 255);
+    position: relative;
+}
+
+
+
+
+.about-me {
+    position: relative;
+    margin-left: 100px;
+    bottom: 100px;
+    border: 1px solid #000;
+    height: 359px;
+    width: 800px;
+    display: block;
+}
+
+.about-me-title {
+    font-size: 30px;
+    position: absolute;
+    bottom: 290px;
+    left: 600px;
+    font-family: sans-serif;
+}
+
+.about-me span{
+    font-size: 20px;
+    position: relative;
+    margin-top: -240px;
+    left: 300px;
+    font-family: sans-serif;
+    display: block;
+}
+
+
+
+
+.projects {
+    position: relative;
+    margin-left: 1000px;
+    bottom: 460px;
+    border: 1px solid #000;
+    height: 359px;
+    width: 800px;
+    
+}
+
+.projects-img{
+    width: 300px;
+    height: 357px;
+}
+
+.projects-title {
+    font-size: 30px;
+    position: absolute;
+    bottom: 290px;
+    left: 600px;
+    font-family: sans-serif;
+}
+
+.projets-body{
+    font-size: 20px;
+    position: relative;
+    bottom: 260px;
+    left: 300px;
+    font-family: sans-serif;
+}
+
+.button-projets {
+    background: #000;
+    padding: 30px;
+    width: 310px;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    left: 60px;
+    bottom: -30px;
+}
+
+.button-projets:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 6px #000;
+    text-shadow: 0px 0px 4px #000;
+}
+
+.button-projets:active {
+    box-shadow: 0px 0px 9px #000;
+}
+
+.service {
+    position: relative;
+    border: 1px solid #000;
+    margin-top: 340px;
+    margin-left: -54%;
+    height: 460px;
+    width: 350px;
+    background: none;
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30px;
+    
+}
+.price-service{
+    color: #000;
+    position: relative;
+    bottom: -25px;
+}
+
+.service-title {
+    color: #000;
+    position: absolute;
+    bottom: 399px;
+    font-size: 30px;
+    width: 100px;
+    left: 180px;
+    bottom: 420px;
+}
+
+.service-caracts {
+    font-family: sans-serif;
+    color: #000;
+    position: relative;
+    bottom: -10px;
+    font-size: 20px;
+}
+
+.button-buy {
+    background: #000;
+    padding: 23px;
+    width: 260px;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+
+    margin-top: -160px;
+}
+
+.button-buy:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 6px #000;
+    text-shadow: 0px 0px 4px #000;
+}
+
+.button-buy:active {
+    box-shadow: 0px 0px 9px #000;
+}
+
+.container {
+    display: flex;
+}
